@@ -1,0 +1,51 @@
+{
+    "name": "UserNFTContract",
+    "symbol": "UNFT",
+    "schemaURI": "ipfs://example-schema-uri", 
+    "imageURI": "ipfs://example-image-uri", 
+    "features": ["mintable"],
+    "fields": [
+        {
+            "id": 1,
+            "key": "wallet_address",
+            "type": "address",
+            "description": "The Ethereum wallet address of the user."
+        },
+        {
+            "id": 2,
+            "key": "nfts_held_count",
+            "type": "uint256",
+            "description": "The total number of NFTs held by the user."
+        },
+        {
+            "id": 3,
+            "key": "minted_nfts_count",
+            "type": "uint256",
+            "description": "The total number of NFTs minted by the user."
+        },
+        {
+            "id": 4,
+            "key": "token_id",
+            "type": "uint256",
+            "description": "The unique identifier for the NFT."
+        },
+        {
+            "id": 5,
+            "key": "owner",
+            "type": "address",
+            "description": "The wallet address of the current owner of the NFT."
+        },
+        {
+            "id": 6,
+            "key": "token_uri",
+            "type": "string",
+            "description": "The URI pointing to the metadata of the NFT."
+        },
+        {
+            "id": 7,
+            "key": "minted_at",
+            "type": "uint256",
+            "description": "The timestamp when the NFT was minted."
+        }
+    ]
+}

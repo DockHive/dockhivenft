@@ -1,0 +1,49 @@
+{
+  "scopeName": "undefined",
+  "name": "DockHiveNFT",
+  "symbol": "DHN",
+  "schemaURI": "ipfs://example-schema-uri",
+  "imageURI": "ipfs://example-image-uri",
+  "fields": [
+    {
+      "id": 1,
+      "key": "token_id",
+      "type": "uint256",
+      "arrayLength": 1,
+      "description": "The unique identifier for the NFT.",
+      "visibility": "public",
+      "slot": 0,
+      "offset": 0
+    },
+    {
+      "id": 4,
+      "key": "minted_at",
+      "type": "uint256",
+      "arrayLength": 1,
+      "description": "The timestamp when the NFT was minted.",
+      "visibility": "public",
+      "slot": 1,
+      "offset": 0
+    },
+    {
+      "id": 2,
+      "key": "owner",
+      "type": "address",
+      "arrayLength": 1,
+      "description": "The wallet address of the current owner of the NFT.",
+      "visibility": "public",
+      "slot": 2,
+      "offset": 0
+    },
+    {
+      "id": 3,
+      "key": "token_uri",
+      "type": "string",
+      "arrayLength": 1,
+      "description": "The URI pointing to the metadata of the NFT.",
+      "visibility": "public",
+      "slot": 2,
+      "offset": 0
+    }
+  ]
+}
